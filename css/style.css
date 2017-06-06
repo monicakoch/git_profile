@@ -1159,5 +1159,15 @@ p.subtitle {
   quotes: "\201C""\201D""\2018""\2019";
 }
 
+#about-description {
+	border-right: 10px solid #ccc;
+}
 
 /* ===== End Custom Blockquote ===== */
+
+/* ===== Custom header ===== */
+#header-icons {
+	margin-left: 20px;
+	margin-right:0px;
+}
+/* ===== Custom header ===== */
