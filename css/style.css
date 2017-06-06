@@ -74,9 +74,10 @@ p {
 	font: 14px/1.5em "Roboto";
 }
 
-h4.technical-skills {
+.technical-skills {
 	font-size: 17px;
 	font-weight: 700;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 .navbar-nav > li > a {
