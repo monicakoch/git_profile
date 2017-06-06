@@ -1225,7 +1225,7 @@ div#work-experience-back {
 }*/
 /* ===== Custom header ===== */
 
-.blockquote-workexp {
+blockquote.blockquote-workexp {
 	margin: 1.5em 10px;
 	padding: 0.5em 10px;
 }
