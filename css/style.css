@@ -1009,6 +1009,23 @@ p.subtitle {
 }
 /* ===== End more-space ===== */
 
+/* owl carousel hover */
+.owl-theme .owl-controls .owl-page span {
+	background: rgba(0, 0, 0, 0);
+	width: 14px;
+	height: 14px;
+	border: 3px solid #fff;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+	background: rgba(0, 0, 0, 0);
+	border: 3px solid #fff;
+}
+
+/* end owl carousel hover */
 
 /* ===== Begin OWL carousel ===== */
 .owl-carousel {
