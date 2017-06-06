@@ -1166,10 +1166,15 @@ p.subtitle {
 /* ===== End Custom Blockquote ===== */
 
 /* ===== Custom background workexperience ===== */
-.work-experience {
+div#work-experience-back {
 	background-color: #FFF;
+	
+}
+
+.work-experience {
 	color: #363940;
 }
+
 /* ===== Custom header ===== */
 
 /* ===== Custom header ===== */
