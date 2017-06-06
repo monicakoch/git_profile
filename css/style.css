@@ -976,8 +976,8 @@ ul.imp-links li a {
 
 /* ===== Begin page header ===== */
 .page-header {
-	/*margin: 0 0 60px 0;*/
-	margin: 0 0 0 0;
+	margin: 0 0 60px 0;
+	/*margin: 0 0 0 0;*/
 	padding: 0;
 	border: none;
 }
@@ -989,6 +989,10 @@ p.subtitle {
 	margin-top: 10px;
 }
 /* ===== End page header ===== */
+
+.page-header#page-header-workexp{
+	margin: 0 0 0 0;
+}
 
 
 /* ===== Begin extra-space ===== */
