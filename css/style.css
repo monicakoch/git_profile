@@ -1049,7 +1049,7 @@ div#work-exp-all .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl
 	border: 3px solid #fff;
 }
 .owl-buttons {
-	position: absolute;
+	/*position: absolute;*/
 	top: 50%;
 	margin-top: -25px;
 	width: 100%;
