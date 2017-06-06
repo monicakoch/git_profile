@@ -1215,7 +1215,8 @@ div#work-exp-all .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl
 
 /* ===== Custom background workexperience ===== */
 div#work-experience-back {
-	background-color: #FFF;
+	
+	background:#f8f8f8 url('../../img/pat-bg.png') repeat;
 	/*border: solid #676D75;*/
 }
 
