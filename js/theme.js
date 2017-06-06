@@ -106,8 +106,8 @@ $("#owl-partners").owlCarousel({
 $("#owl-testimonial").owlCarousel({
     singleItem : true,
     pagination : true,
-    autoHeight : true
-    navigation:true,
+    autoHeight : true,
+    navigation: true,
     navigationText: [
        "<i class='fa fa-chevron-left'></i>",
        "<i class='fa fa-chevron-right'></i>"
