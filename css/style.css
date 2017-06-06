@@ -1230,4 +1230,7 @@ blockquote.blockquote-workexp {
 	padding: 0.5em 10px;
 }
 
+ul.work-exp li {
+	padding: 5px 0px;
+}
 
