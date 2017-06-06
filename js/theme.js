@@ -114,6 +114,19 @@ $("#owl-testimonial").owlCarousel({
     ]
 })
 
+// Work experience carousel
+$("#owl-workexp").owlCarousel({
+    singleItem : true,
+    pagination : true,
+    autoHeight : true,
+    navigation: true,
+    navigationText: [
+       "<i class='fa fa-chevron-left'></i>",
+       "<i class='fa fa-chevron-right'></i>"
+    ]
+})
+
+
 
 ////////////////////////////////////////////////////////////////////
 // Stellar (parallax): https://github.com/markdalgleish/stellar.js

@@ -509,6 +509,31 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 /* ===== End testimonial ===== */
 
+/* ===== Custom work experience =====  */
+
+.testimonial-inner-work {
+	position: relative;
+	max-width: 800px;
+	z-index: 9;
+}
+.testimonial-inner-work .heading {
+	margin-bottom: 20px;
+}
+.testimonial-inner-work blockquote {
+	border: none;
+}
+.testimonial-inner-work blockquote p {
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+}
+.testimonial-inner-work blockquote cite {
+	font-style: normal;
+	
+	font-size: 1.5em;
+}
+
+/* ===== End Custom work experience =====  */
+
 
 /* ===== Begin Portfolio===== */
 .portfolio_area{}
@@ -1171,9 +1196,7 @@ div#work-experience-back {
 	
 }
 
-.work-experience {
-	color: #363940;
-}
+
 
 /* ===== Custom header ===== */
 
