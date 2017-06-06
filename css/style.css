@@ -1166,8 +1166,8 @@ p.subtitle {
 /* ===== End Custom Blockquote ===== */
 
 /* ===== Custom header ===== */
-#header-icons {
-	margin-left: 20px;
+ul#header-icons {
+	margin-left: 30px;
 	margin-right:0px;
 }
 /* ===== Custom header ===== */
