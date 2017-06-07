@@ -135,6 +135,7 @@ section {
 
 /* ===== Begin text colors ===== */
 .text-main { color: #363940; } /* Theme main color */
+.text-work { color: #898a8e; }
 .text-white { color: #FFF; }
 .text-off-white { color: #e7e7e7;}
 .text-dark { color: #000; }
