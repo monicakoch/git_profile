@@ -1206,8 +1206,7 @@ div#work-exp-all .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl
 	transform: rotate(-45deg);
 }
 /* ===== End buttons ===== */
-<<<<<<< HEAD
-=======
+
 
 /* ===== Custom Blockquote ===== */
 
@@ -1275,4 +1274,7 @@ textarea.form-control {
 .text-white-custom {
 	color: #f8f8f8;
 }
->>>>>>> gh-pages
+
+.rotate-box-1-wrapper {
+	margin-bottom: 30px;
+}
