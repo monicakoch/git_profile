@@ -1,13 +1,4 @@
 
-//jquery for pdf modal 
-<script language="javascript" type="text/javascript">
-  $(document).ready(function() {
-    $('#trigger').click(function(){
-      $("#dialog").dialog();
-    }); 
-  });                  
-</script>
-
 
 /////////////////////////////////////////////////////////////////////
 // jQuery for page scrolling feature - requires jQuery Easing plugin
