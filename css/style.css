@@ -1256,7 +1256,7 @@ textarea.form-control {
     max-height: 35px;
     overflow: hidden;
     margin: 0 auto;
-    cursor: crosshair;
+    cursor: crosshair !important;
 }
 
 
