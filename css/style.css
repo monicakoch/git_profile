@@ -1278,3 +1278,8 @@ textarea.form-control {
 .rotate-box-1-wrapper {
 	margin-bottom: 30px;
 }
+
+blockquote#about-description {
+	max-width: 700px;
+    margin: 30px auto;
+}
