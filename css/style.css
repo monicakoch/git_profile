@@ -73,6 +73,13 @@ h5 {
 p {
 	font: 14px/1.5em "Roboto";
 }
+
+.technical-skills {
+	font-size: 17px;
+	font-weight: 700;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
 .navbar-nav > li > a {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
 }
@@ -125,9 +132,17 @@ section {
 	/* height: 98px; */
 }
 
+item.title-page {
+    /* background: white; */
+    padding-top: 30px;
+    /* opacity: 0.4; */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 /* ===== Begin text colors ===== */
 .text-main { color: #363940; } /* Theme main color */
+.text-work { color: #898a8e; }
 .text-white { color: #FFF; }
 .text-off-white { color: #e7e7e7;}
 .text-dark { color: #000; }
@@ -168,16 +183,16 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo-mon-white2.png);
 }
 .navbar-shrink .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo-mon-white2.png);
 }
 .navbar-transparent .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo-mon-white2.png);
 }
 .navbar-inverse .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo-mon-white2.png);
 }
 
 /* Navbar links */
@@ -502,6 +517,31 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 /* ===== End testimonial ===== */
 
+/* ===== Custom work experience =====  */
+
+.testimonial-inner-work {
+	position: relative;
+	max-width: 800px;
+	z-index: 9;
+}
+.testimonial-inner-work .heading {
+	margin-bottom: 20px;
+}
+.testimonial-inner-work blockquote {
+	border: none;
+}
+.testimonial-inner-work blockquote p {
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+}
+.testimonial-inner-work blockquote cite {
+	font-style: normal;
+	
+	font-size: 1.5em;
+}
+
+/* ===== End Custom work experience =====  */
+
 
 /* ===== Begin Portfolio===== */
 .portfolio_area{}
@@ -630,6 +670,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 .counter-up .cover {
 	background-color: rgba(0, 7, 11, 0.8);
+	background-color: #363940;
 }
 .counter-up .fact {
 }
@@ -807,7 +848,7 @@ ul.social-list {
 }
 ul.social-list li{
 	display: inline-block;
-	margin-right: 20px;
+	/*margin-right: 20px;*/
 }
 ul.social-list li .rotate-box-1 {
 	margin: 0;
@@ -945,6 +986,7 @@ ul.imp-links li a {
 /* ===== Begin page header ===== */
 .page-header {
 	margin: 0 0 60px 0;
+	/*margin: 0 0 0 0;*/
 	padding: 0;
 	border: none;
 }
@@ -956,6 +998,10 @@ p.subtitle {
 	margin-top: 10px;
 }
 /* ===== End page header ===== */
+
+div#page-header-workexp{
+	margin: 0 0 0 0;
+}
 
 
 /* ===== Begin extra-space ===== */
@@ -977,6 +1023,23 @@ p.subtitle {
 }
 /* ===== End more-space ===== */
 
+/* owl carousel hover */
+div#work-exp-all .owl-theme .owl-controls .owl-page span {
+	background: rgba(0, 0, 0, 0);
+	width: 14px;
+	height: 14px;
+	border: 3px solid #000;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+div#work-exp-all .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+	background: rgba(0, 0, 0, 0);
+	border: 3px solid #000;
+}
+
+/* end owl carousel hover */
 
 /* ===== Begin OWL carousel ===== */
 .owl-carousel {
@@ -1142,3 +1205,73 @@ p.subtitle {
 	transform: rotate(-45deg);
 }
 /* ===== End buttons ===== */
+<<<<<<< HEAD
+=======
+
+/* ===== Custom Blockquote ===== */
+
+.blockquote-background {
+  background: #D7DBDD;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+#about-description {
+	border-right: 10px solid #ccc;
+}
+
+/* ===== End Custom Blockquote ===== */
+
+/* ===== Custom background workexperience ===== */
+div#work-experience-back {
+	
+	background:#f8f8f8 url('../../img/pat-bg.png') repeat;
+	/*border: solid #676D75;*/
+}
+
+
+
+/* ===== Custom header ===== */
+
+/* ===== Custom header ===== */
+/*ul#header-icons {
+	margin-left: 30px;
+	margin-right:0px;
+}*/
+/* ===== Custom header ===== */
+
+blockquote.blockquote-workexp {
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+}
+
+ul.work-exp li {
+	padding: 5px 0px;
+}
+
+.logo-size.col-sm-12 {
+	padding-bottom: 20px;
+}
+
+/*.workexp-details {
+	border: 1.5px solid;
+    padding: 10px;
+}*/
+
+
+textarea.form-control {
+	text-align: center;
+    max-width: 215px;
+    max-height: 35px;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: crosshair !important;
+}
+
+
+.text-white-custom {
+	color: #f8f8f8;
+}
+>>>>>>> gh-pages
