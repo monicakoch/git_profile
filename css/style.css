@@ -136,8 +136,8 @@ section {
     /* background: white; */
     padding-top: 30px;
     /* opacity: 0.4; */
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #d8d8d8;
+    background-color: rgba(0, 0, 0, 0.1);
+    /*color: #d8d8d8; */
 }
 
 
@@ -1224,13 +1224,12 @@ div#work-exp-all .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl
 
 /* ===== End Custom Blockquote ===== */
 
-/* ===== Custom background workexperience ===== */
+/* ===== Custom background workexperience ===== 
 div#work-experience-back {
 	
 	background:#f8f8f8 url('../../img/pat-bg.png') repeat;
-	/*border: solid #676D75;*/
 }
-
+*/
 
 
 /* ===== Custom header ===== */
