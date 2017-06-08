@@ -38,8 +38,8 @@
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
-    
-    for (var i=o; i<span.length; i++){
+
+    for (var i=0; i<span.length; i++){
 
         span[i].onclick = function(){
             modal[i].style.display = "none";
