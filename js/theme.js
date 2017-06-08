@@ -1,3 +1,31 @@
+// custom javascript for modal windows
+
+function callModal() {
+    // Get the modal
+    //var button = document.getElementbyId(button_id);
+    var modal = document.querySelectorAll("#myModal-angular, #myModal-cassandra, #myModal-bacrash") //getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.querySelectorAll("#img-file-angular, #img-file-cassandra, #img-file-bacrash") //getElementsByClassName('img-file');
+    var modalImg = document.querySelectorAll("#modal-image-angular, #modal-image-cassandra, #modal-image-bacrash") //getElementsByClassName("modal-image");
+    //var captionText = document.getElementsByClassName("caption");
+
+    for (var i=0; i<img.length; i++){ 
+        img[i].onclick = function(){
+            modal.style.display = "block";
+            modalImg[i].src = this.src;
+            //captionText[i].innerHTML = this.alt;
+        }
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+        modal.style.display = "none";
+    }
+}
 
 
 /////////////////////////////////////////////////////////////////////
