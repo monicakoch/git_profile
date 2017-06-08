@@ -302,7 +302,7 @@ $(function() {
   $.scrollify({
     section : ".example-classname",
     setHeights: false,
-    offset: -90
+    offset: -80
 
   });
 });
