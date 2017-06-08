@@ -10,13 +10,29 @@
     var modalImg = document.querySelectorAll("#modal-image-angular, #modal-image-cassandra, #modal-image-bacrash") //getElementsByClassName("modal-image");
     //var captionText = document.getElementsByClassName("caption");
 
-    for (var i=0; i<button.length; i++){ 
-        button[i].onclick = function(){
+    button[0].onclick = function(){
+    modal[0].style.display = "block";
+    modalImg[0].src = img[0].src;
+}
+
+    button[1].onclick = function(){
+    modal[1].style.display = "block";
+    modalImg[1].src = img[1].src;
+}
+
+    button[2].onclick = function(){
+    modal[2].style.display = "block";
+    modalImg[2].src = img[2].src;
+}
+
+
+    //for (var i=0; i<button.length; i++){ 
+        //button[i].onclick = function(){
             //modal[i].style.display = "block";
-            modalImg[i].src = img[i].src;
+            //modalImg[i].src = img[i].src;
             //captionText[i].innerHTML = this.alt;
-        }
-    }
+        //}
+   // }
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
