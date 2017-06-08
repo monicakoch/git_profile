@@ -48,8 +48,8 @@
     }*/
     // When the user clicks on <span> (x), close the modal
     modalImg[0].onclick = function() { 
-        //modal[0].style.display = "none";
-        modal[0].css("opacity", "0").on('transitionend webkitTransitionEnd oTransitionEnd otransitionend', HideTheElementAfterAnimation);
+        modal[0].style.display = "none";
+        //modal[0].css("opacity", "0").on('transitionend webkitTransitionEnd oTransitionEnd otransitionend', HideTheElementAfterAnimation);
     }
 
     modalImg[1].onclick = function() { 
