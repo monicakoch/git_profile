@@ -301,7 +301,8 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 $(function() {
   $.scrollify({
     section : ".example-classname",
-    setHeights: false
+    setHeights: false,
+    offset:-40
 
   });
 });
