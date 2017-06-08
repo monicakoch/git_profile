@@ -1,6 +1,6 @@
 // custom javascript for modal windows
 
-function callModal() {
+//function callModal() {
     // Get the modal
     var button = document.querySelectorAll("#button-angular, #button-cassandra, #button-bacrash") //getElementbyId(button_id);
     var modal = document.querySelectorAll("#myModal-angular, #myModal-cassandra, #myModal-bacrash") //getElementById('myModal');
@@ -25,7 +25,7 @@ function callModal() {
     span.onclick = function() { 
         modal.style.display = "none";
     }
-}
+//}
 
 
 /////////////////////////////////////////////////////////////////////
