@@ -2,45 +2,62 @@
 
 //function callModal() {
     // Get the modal
-    var button = document.querySelectorAll("#button-angular, #button-cassandra, #button-bacrash") //getElementbyId(button_id);
-    var modal = document.querySelectorAll("#myModal-angular, #myModal-cassandra, #myModal-bacrash") //getElementById('myModal');
+    var button = document.querySelectorAll("#button-angular, #button-cassandra, #button-bacrash"); //getElementbyId(button_id);
+    var modal = document.querySelectorAll("#myModal-angular, #myModal-cassandra, #myModal-bacrash"); //getElementById('myModal');
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.querySelectorAll("#img-file-angular, #img-file-cassandra, #img-file-bacrash") //getElementsByClassName('img-file');
-    var modalImg = document.querySelectorAll("#modal-image-angular, #modal-image-cassandra, #modal-image-bacrash") //getElementsByClassName("modal-image");
+    var img = document.querySelectorAll("#img-file-angular, #img-file-cassandra, #img-file-bacrash"); //getElementsByClassName('img-file');
+    var modalImg = document.querySelectorAll("#modal-image-angular, #modal-image-cassandra, #modal-image-bacrash"); //getElementsByClassName("modal-image");
     //var captionText = document.getElementsByClassName("caption");
 
-    button[0].onclick = function(){
-    modal[0].style.display = "block";
-    modalImg[0].src = img[0].src;
-}
+    /*button[0].onclick = function(){
+        modal[0].style.display = "block";
+        modalImg[0].src = img[0].src;
+    }
 
     button[1].onclick = function(){
-    modal[1].style.display = "block";
-    modalImg[1].src = img[1].src;
-}
+        modal[1].style.display = "block";
+        modalImg[1].src = img[1].src;
+    }
 
     button[2].onclick = function(){
-    modal[2].style.display = "block";
-    modalImg[2].src = img[2].src;
-}
+        modal[2].style.display = "block";
+        modalImg[2].src = img[2].src;
+    }*/
 
 
-    //for (var i=0; i<button.length; i++){ 
-        //button[i].onclick = function(){
-            //modal[i].style.display = "block";
-            //modalImg[i].src = img[i].src;
-            //captionText[i].innerHTML = this.alt;
-        //}
-   // }
+    for (var i=0; i<button.length; i++){ 
+        button[i].onclick = function(){
+            modal[i].style.display = "block";
+            modalImg[i].src = img[i].src;
+            captionText[i].innerHTML = this.alt;
+        }
+
+
+    }
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
+    
+    for (var i=o; i<span.length; i++){
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() { 
-        modal.style.display = "none";
+        span[i].onclick = function(){
+            modal[i].style.display = "none";
+        }
+
     }
+    // When the user clicks on <span> (x), close the modal
+    /*span[0].onclick = function() { 
+        modal[0].style.display = "none";
+    }
+
+    span[1].onclick = function() { 
+        modal[1].style.display = "none";
+    }
+
+    span[2].onclick = function() { 
+        modal[2].style.display = "none";
+    }*/
 //}
 
 
