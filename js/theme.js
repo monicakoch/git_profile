@@ -10,7 +10,7 @@
     var modalImg = document.querySelectorAll("#modal-image-angular, #modal-image-cassandra, #modal-image-bacrash"); //getElementsByClassName("modal-image");
     //var captionText = document.getElementsByClassName("caption");
 
-    /*button[0].onclick = function(){
+    button[0].onclick = function(){
         modal[0].style.display = "block";
         modalImg[0].src = img[0].src;
     }
@@ -23,10 +23,10 @@
     button[2].onclick = function(){
         modal[2].style.display = "block";
         modalImg[2].src = img[2].src;
-    }*/
+    }
 
 
-    for (var i=0; i<button.length; i++){ 
+    /*for (var i=0; i<button.length; i++){ 
         button[i].onclick = function(){
             modal[i].style.display = "block";
             modalImg[i].src = img[i].src;
@@ -34,20 +34,20 @@
         }
 
 
-    }
+    }*/
 
     // Get the <span> element that closes the modal
     //var span = document.getElementsByClassName("close")[0];
 
-    for (var i=0; i<span.length; i++){
+   /* for (var i=0; i<span.length; i++){
 
         span[i].onclick = function(){
             modal[i].style.display = "none";
         }
 
-    }
+    }*/
     // When the user clicks on <span> (x), close the modal
-    /*span[0].onclick = function() { 
+    span[0].onclick = function() { 
         modal[0].style.display = "none";
     }
 
@@ -57,8 +57,8 @@
 
     span[2].onclick = function() { 
         modal[2].style.display = "none";
-    }*/
-//}
+    }
+//
 
 
 /////////////////////////////////////////////////////////////////////
