@@ -30,7 +30,7 @@
         button[i].onclick = function(){
             modal[i].style.display = "block";
             modalImg[i].src = img[i].src;
-            captionText[i].innerHTML = this.alt;
+            //captionText[i].innerHTML = this.alt;
         }
 
 
