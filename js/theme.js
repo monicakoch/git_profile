@@ -298,6 +298,12 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 // custom javascript for modal popups
 /////////////////////////////////////////////////////////////////////
 
+$(function() {
+  $.scrollify({
+    section : ".example-classname",
+  });
+});
+
 /*
 
 $(".main").onepage_scroll({
