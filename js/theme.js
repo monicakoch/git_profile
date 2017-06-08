@@ -2,7 +2,7 @@
 
 function callModal() {
     // Get the modal
-    //var button = document.getElementbyId(button_id);
+    var button = document.querySelectorAll("#button-angular, #button-cassandra, #button-bacrash") //getElementbyId(button_id);
     var modal = document.querySelectorAll("#myModal-angular, #myModal-cassandra, #myModal-bacrash") //getElementById('myModal');
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -10,10 +10,10 @@ function callModal() {
     var modalImg = document.querySelectorAll("#modal-image-angular, #modal-image-cassandra, #modal-image-bacrash") //getElementsByClassName("modal-image");
     //var captionText = document.getElementsByClassName("caption");
 
-    for (var i=0; i<img.length; i++){ 
-        img[i].onclick = function(){
+    for (var i=0; i<button.length; i++){ 
+        button[i].onclick = function(){
             modal[i].style.display = "block";
-            modalImg[i].src = this.src;
+            modalImg[i].src = img[i].src;
             //captionText[i].innerHTML = this.alt;
         }
     }
