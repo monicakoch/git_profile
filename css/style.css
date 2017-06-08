@@ -1296,7 +1296,7 @@ img#img-file-angular, img#img-file-cassandra, img#img-file-bacrash {
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 13; /* Sit on top (set to 13 for now) */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
