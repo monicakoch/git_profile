@@ -48,7 +48,8 @@
     }*/
     // When the user clicks on <span> (x), close the modal
     modalImg[0].onclick = function() { 
-        modal[0].style.display = "none";
+        //modal[0].style.display = "none";
+        modal[0].css("opacity", "0").on('transitionend webkitTransitionEnd oTransitionEnd otransitionend', HideTheElementAfterAnimation);
     }
 
     modalImg[1].onclick = function() { 
@@ -58,7 +59,15 @@
     modalImg[2].onclick = function() { 
         modal[2].style.display = "none";
     }
-//
+
+
+ $('#close, #overlay').click(function(e) {
+      e.preventDefault();
+
+      $('#overlay, #alertModalOuter').fadeOut(400, function() {
+          $('#close').remove();
+      });
+  });
 
 
 /////////////////////////////////////////////////////////////////////

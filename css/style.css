@@ -1291,7 +1291,7 @@ img#img-file-angular, img#img-file-cassandra, img#img-file-bacrash {
 }
 
 img#modal-file-angular, img#modal-file-cassandra, img#modal-file-bacrash {
-	display: none;
+	
 	transition: 0.3s;
 }
 
