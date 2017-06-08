@@ -216,7 +216,7 @@ $.stellar({
     // Set scrolling to be in either one or both directions
     horizontalScrolling: false,
     verticalScrolling: true,
-    verticalOffset: 550
+    
 });
 
 
@@ -303,7 +303,7 @@ $(function() {
   $.scrollify({
     section : ".example-classname",
     setHeights: false,
-    offset: -75
+    offset: -72
 
   });
 });
