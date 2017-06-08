@@ -1327,7 +1327,7 @@ img#modal-file-angular, img#modal-file-cassandra, img#modal-file-bacrash {
     width: 80%;
     max-width: 700px;
     text-align: center;
-    color: #ccc;
+
     padding: 10px 0;
     height: 150px;
 }
@@ -1373,4 +1373,8 @@ img#modal-file-angular, img#modal-file-cassandra, img#modal-file-bacrash {
     .modal-content {
         width: 100%;
     }
+}
+
+h2#tech-skills {
+	padding-top: 30px;
 }
