@@ -10,7 +10,7 @@ function callModal() {
     var modalImg = document.querySelectorAll("#modal-image-angular, #modal-image-cassandra, #modal-image-bacrash") //getElementsByClassName("modal-image");
     //var captionText = document.getElementsByClassName("caption");
 
-    for (var i=0; i<button.length-1; i++){ 
+    for (var i=0; i<button.length; i++){ 
         button[i].onclick = function(){
             modal[i].style.display = "block";
             modalImg[i].src = img[i].src;
