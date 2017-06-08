@@ -1286,7 +1286,7 @@ blockquote#about-description {
 
 /*regarding modal window */
 
-#img-file-angular, #img-file-cassandra, #img-file-bacrash {
+img#img-file-angular, img#img-file-cassandra, img#img-file-bacrash {
 	display: none;
 }
 
