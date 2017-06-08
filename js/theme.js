@@ -12,7 +12,7 @@
 
     for (var i=0; i<button.length; i++){ 
         button[i].onclick = function(){
-            modal[i].style.display = "block";
+            //modal[i].style.display = "block";
             modalImg[i].src = img[i].src;
             //captionText[i].innerHTML = this.alt;
         }
