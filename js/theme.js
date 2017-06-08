@@ -299,14 +299,14 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 // custom javascript for modal popups
 /////////////////////////////////////////////////////////////////////
 
-$(function() {
+/*$(function() {
   $.scrollify({
     section : ".example-classname",
     setHeights: false,
     offset: -68
 
   });
-});
+});*/
 
 /*
 
