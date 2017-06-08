@@ -12,7 +12,7 @@ function callModal() {
 
     for (var i=0; i<img.length; i++){ 
         img[i].onclick = function(){
-            modal.style.display = "block";
+            modal[i].style.display = "block";
             modalImg[i].src = this.src;
             //captionText[i].innerHTML = this.alt;
         }
