@@ -4,7 +4,7 @@
     // Get the modal
     var button = document.querySelectorAll("#button-angular, #button-cassandra, #button-bacrash"); //getElementbyId(button_id);
     var modal = document.querySelectorAll("#myModal-angular, #myModal-cassandra, #myModal-bacrash"); //getElementById('myModal');
-
+    var span = document.querySelectorAll("#close-angular, #close-cassandra, #close-bacrash");
     // Get the image and insert it inside the modal - use its "alt" text as a caption
     var img = document.querySelectorAll("#img-file-angular, #img-file-cassandra, #img-file-bacrash"); //getElementsByClassName('img-file');
     var modalImg = document.querySelectorAll("#modal-image-angular, #modal-image-cassandra, #modal-image-bacrash"); //getElementsByClassName("modal-image");
@@ -37,7 +37,7 @@
     }
 
     // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+    //var span = document.getElementsByClassName("close")[0];
 
     for (var i=0; i<span.length; i++){
 
