@@ -61,13 +61,6 @@
     }
 
 
- $('#close, #overlay').click(function(e) {
-      e.preventDefault();
-
-      $('#overlay, #alertModalOuter').fadeOut(400, function() {
-          $('#close').remove();
-      });
-  });
 
 /////////////////////////////////////////////////////////////////////
 // jQuery for page scrolling plugin
